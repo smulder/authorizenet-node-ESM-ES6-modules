@@ -19,7 +19,7 @@ The Authorize.Net APIs only support connections using the TLS 1.2 security proto
 ## Installation
 To install AuthorizeNet 
 
-`npm install authorizenet`
+`install from github repo`
 
 
 ## Registration & Configuration
@@ -33,6 +33,11 @@ Once you have your keys simply load them into the appropriate variables in your 
 
 #### To set your API credentials for an API request: 
 ```javascript
+
+	import {ApiContracts} from 'authorizenet';
+	import {ApiControllers} from 'authorizenet';
+	import {Constants as SDKConstants} from 'authorizenet';
+
 	var merchantAuthenticationType = new ApiContracts.MerchantAuthenticationType();
 	merchantAuthenticationType.setName('YOUR_API_LOGIN_ID');
 	merchantAuthenticationType.setTransactionKey('YOUR_TRANSACTION_KEY');
