@@ -1,16 +1,16 @@
 {
-  "_from": "authorizenet",
-  "_id": "authorizenet@1.0.8",
+  "_from": "authorizenetesm",
+  "_id": "authorizenetesm@1.0.8",
   "_inBundle": false,
   "_integrity": "sha512-n07S6V5EgbjmdIqXfK5pnvFx0SVZd/b5BKuY5K8MOBTaWjLZPhhrEl8D2QCqK3y+EyIRCKhYmtJFhgPo4Ac9mw==",
-  "_location": "/authorizenet",
+  "_location": "/authorizenetesm",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "authorizenet",
-    "name": "authorizenet",
-    "escapedName": "authorizenet",
+    "raw": "authorizenetesm",
+    "name": "authorizenetesm",
+    "escapedName": "authorizenetesm",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -21,12 +21,8 @@
   ],
   "_resolved": "https://registry.npmjs.org/authorizenet/-/authorizenet-1.0.8.tgz",
   "_shasum": "ebc6b715449661a7836c61755875d6a7b6138033",
-  "_spec": "authorizenet",
-  "_where": "/Users/scott/Dropbox/node/projects/_Refactor_TFB_5.12",
+  "_spec": "authorizenetesm",
   "author": "",
-  "bugs": {
-    "url": "https://github.com/AuthorizeNet/sdk-node/issues"
-  },
   "bundleDependencies": false,
   "dependencies": {
     "request": "^2.72.0",
@@ -50,10 +46,10 @@
   ],
   "license": "ISC",
   "main": "lib/authorizenet.mjs",
-  "name": "authorizenet ESM",
+  "name": "authorizenetesm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AuthorizeNet/sdk-node.git"
+    "url": "git+https://github.com/smulder/authorizenet-node-ESM-ES6-modules.git"
   },
   "scripts": {
     "test": "mocha"
