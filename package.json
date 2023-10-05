@@ -33,7 +33,7 @@
     "winston": "^2.2.0"
   },
   "deprecated": false,
-  "description": "nodejs sdk for Authorize.Net",
+  "description": "nodejs sdk for Authorize.Net Modified to use ESM ES6 Modules",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^6.6.0",
@@ -50,7 +50,7 @@
   ],
   "license": "ISC",
   "main": "lib/authorizenet.mjs",
-  "name": "authorizenet",
+  "name": "authorizenet ESM",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AuthorizeNet/sdk-node.git"
