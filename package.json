@@ -1,36 +1,62 @@
 {
-  "name": "authorizenet",
-  "version": "1.0.8",
-  "description": "nodejs sdk for Authorize.Net",
-  "main": "lib/authorizenet.js",
-  "directories": {
-    "test": "tests"
+  "_from": "authorizenet",
+  "_id": "authorizenet@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-n07S6V5EgbjmdIqXfK5pnvFx0SVZd/b5BKuY5K8MOBTaWjLZPhhrEl8D2QCqK3y+EyIRCKhYmtJFhgPo4Ac9mw==",
+  "_location": "/authorizenet",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "authorizenet",
+    "name": "authorizenet",
+    "escapedName": "authorizenet",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/authorizenet/-/authorizenet-1.0.8.tgz",
+  "_shasum": "ebc6b715449661a7836c61755875d6a7b6138033",
+  "_spec": "authorizenet",
+  "_where": "/Users/scott/Dropbox/node/projects/_Refactor_TFB_5.12",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/AuthorizeNet/sdk-node/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "request": "^2.72.0",
     "winston": "^2.2.0"
   },
+  "deprecated": false,
+  "description": "nodejs sdk for Authorize.Net",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^6.6.0",
     "jsonix": "^2.3.2",
     "mocha": "^8.2.1"
   },
-  "scripts": {
-    "test": "mocha"
+  "directories": {
+    "test": "tests"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AuthorizeNet/sdk-node.git"
-  },
+  "homepage": "https://github.com/AuthorizeNet/sdk-node#readme",
   "keywords": [
     "nodejs",
     "Authorize.Net"
   ],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AuthorizeNet/sdk-node/issues"
+  "main": "lib/authorizenet.mjs",
+  "name": "authorizenet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuthorizeNet/sdk-node.git"
   },
-  "homepage": "https://github.com/AuthorizeNet/sdk-node#readme"
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.8"
 }
