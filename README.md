@@ -35,9 +35,9 @@ Once you have your keys simply load them into the appropriate variables in your 
 #### To set your API credentials for an API request: 
 ```javascript
 
-	import {ApiContracts} from 'authorizenet';
-	import {ApiControllers} from 'authorizenet';
-	import {Constants as SDKConstants} from 'authorizenet';
+	import {ApiContracts} from 'authorizenetesm';
+	import {ApiControllers} from 'authorizenetesm';
+	import {Constants as SDKConstants} from 'authorizenetesm';
 
 	var merchantAuthenticationType = new ApiContracts.MerchantAuthenticationType();
 	merchantAuthenticationType.setName('YOUR_API_LOGIN_ID');
