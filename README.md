@@ -7,6 +7,7 @@
 ## Requirements  
 * Node.js version 10.0.0 or higher
 * An Authorize.Net account (see _Registration & Configuration_ section below)
+* NOT HEAVILY TESTED and NOT LIKELY TO BE MAINTAINED, but this worked for us in getting customer profiles and customer payment profiles working with Vite.
 
 ### Contribution  
   - If you need information or clarification about Authorize.Net features, create an issue with your question. You can also search the [Authorize.Net developer community](https://community.developer.authorize.net/) for discussions related to your question.
