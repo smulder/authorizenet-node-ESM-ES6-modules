@@ -20,7 +20,7 @@ The Authorize.Net APIs only support connections using the TLS 1.2 security proto
 ## Installation
 To install AuthorizeNet 
 
-`install from github repo`
+`npm install https://github.com/smulder/authorizenet-node-ESM-ES6-modules.git`
 
 
 ## Registration & Configuration
